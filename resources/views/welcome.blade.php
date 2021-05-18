@@ -78,8 +78,8 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="title m-b-md" style="font-weight:800">
+                    {{ date('Y-m-d H:i:s')}}
                 </div>
 
                 <div class="links">
