@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 
 class CommonController extends Controller{
     
-    public function output()
+    public function fetch()
     {
 
     }
