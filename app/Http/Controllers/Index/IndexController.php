@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Index;
 
 use App\Http\Controllers\Common\IndexController as Index;
+use App\Model\Common\User;
 
 class IndexController extends Index
 {
@@ -13,6 +14,8 @@ class IndexController extends Index
 
     public function login()
     {
-        return 1;
+        $info = User::all();
+        return $info;
     }
+
 }
